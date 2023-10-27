@@ -1,0 +1,1 @@
+npx quorum-genesis-tool --consensus raft --chainID 1337 --blockperiod 5 --requestTimeout 10 --epochLength 30000 --emptyBlockPeriod 60 --difficulty 1 --gasLimit '0xFFFFFF' --coinbase '0x0000000000000000000000000000000000000000' --validators 1 --members 0 --bootnodes 0 --outputPath 'artifacts'
